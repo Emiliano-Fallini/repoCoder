@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;  /* 10px=1rem  */
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, auto 1fr auto);
+    height: 100vh;
+    width: 100%;
+}
+
+/* ------start-of-header------ */
+
+/* .header{
+    
+} */
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px 0px 40px;
+}
+
+/* --logo-- */
+
+/* .header__divImg{
+
+} */
+
+.header__img{
+    width: 180px;
+    padding: 10px;
+}
+
+/* --slogan-- */
+
+/* .header__divSlogan{
+
+} */
+
+.header__slogan{
+    font-size: 4.5rem;
+    font-family: 'Russo One', sans-serif;
+    font-style: italic;
+    color: rgb(29, 103, 44);
+}
+
+/* --menu-- */
+
+.nav{
+    background-color: rgb(29, 103, 44);
+}
+
+/* .nav__div{
+    
+} */
+
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.nav__item{
+    padding: 5px 10px;
+}
+
+.nav__item:hover{
+    background-color: rgb(0, 50, 0);
+}
+
+.nav__link{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+                                        /* ------end-of-header------ */
+
+                                        /* ------start-of-main------ */
+
+        /* --inicio-- */
+
+.main__img{
+    height: 80vh;
+    width: 100%;
+}
+
+        /* --historia-- */
+
+.main__history, .main__Area, .main__news{
+    margin: 50px 50px;   
+}
+
+.main__title{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: rgb(29, 103, 44);
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+.main__linea{
+    background: rgb(29, 103, 44);
+    height: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.main__art{
+    display: flex;
+    gap: 50px; 
+    
+}
+
+/* .main__divVideo{
+    
+} */
+
+.main__video{
+    width: 35vw;
+}
+
+/* --texto-historia-- */
+
+/* .main__divContainer{
+} */
+
+
+/* .main__divtext{
+
+} */
+
+.main__text{
+    font-size: 1.5rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* --area-- */
+
+.main__containerArea{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.main__titleLegal, .main__titleSocial, .main__titleArquitectonico, .main__titleContable {
+    text-align: center;
+    color: white;
+    background: rgb(29, 103, 44);
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.main__imgAreas{
+    width: 20vw;
+    margin-top: 1rem;
+}
+
+.main__imgAreas--width{
+    width: 17vw;
+    margin-top: 1rem;
+}
+
+.main__textAreas{
+    font-size: 1.2rem;
+    font-family: 'Zilla Slab', serif;
+    margin-top: 1rem;
+}
+
+/* -- news -- */
+
+                     /* -- SOMOS -- */
+
+.container-somos{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    height: 100vh;
+    width: 100%;
+}
+
+/* -- texto somos -- */
+
+.main__containerImgSomos{
+    height: 400px;
+    
+}
+
+.main__imgSomos{
+    width: 100%;
+    height: 100%;
+}
+
+.main__containertextSomos{
+    width: 100%;
+    padding: 50px;
+}
+
+.main__divTextSomos{
+  
+}
+
+.main__textSomos{
+    font-size: 1.5rem;
+    font-family:'Zilla Slab', serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+/* -- equipo -- */
+
+.main__secEquipo{
+    padding: 0px 50px 0px 50px;
+}
+
+.main__artEquipo{
+    margin-bottom: 10px;
+}
+
+.main__containerEquipo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background-color: rgb(230, 253, 235);;
+    padding: 15px;
+}
+
+.main__titleEquipo{
+    font-size: 2.2rem;
+    background-color: rgb(29, 103, 44);
+    color: white;
+    padding: 5px 15px;
+}
+
+.main__divEquipo{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__imgEquipo{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 40px;
+}
+
+.equipo__name{
+    font-size: 1.2rem;
+    padding: 1px 0px;
+}
+
+.main__textEquipo{
+    font-size: 1.5rem;
+}
+
+                                /* -- NOVEDADES -- */
+.main__nov{
+    margin-top: 20px;
+}
+
+
+.container__mainNov{
+   
+}
+
+.main__imgEvento{
+    width: 55vw;
+}
+
+.main__imgNews{
+    width: 90%;
+    height: 200px;
+    padding-top: 15px;
+    }
+
+.main__evento{
+    display: flex;
+    justify-content: center;
+}
+
+/* noticias */
+
+.div__containerNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+/* noticias uno */
+
+.contaniner__newsOne{
+    width: 30%;
+    background: rgb(230, 253, 235);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main__divnewsOne{
+    display: flex;
+    justify-content: center;
+}
+
+/* noticia dos */
+
+.contaniner__newsTwo{
+    width: 30%;
+    background: rgb(230, 253, 235);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main__divnewsTwo{
+    display: flex;
+    justify-content: center;
+}
+
+/* noticia tres */
+
+.main__divnewsThree{
+    display: flex;
+    justify-content: center;
+}
+
+.contaniner__newsThree{
+    width: 30%;
+    background: rgb(230, 253, 235);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main__titleOne, .main__titleTwo, .main__titleThree{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.main__divtextOne, .main__divtextTwo, .main__textThree{
+    padding: 0px 15px 10px 15px;
+    text-align: center;
+}
+
+
+                                /* -- EXPERIENCIAS -- */
+
+.main__containerExpe{
+    background-image: url(../assets/img-de-pruebaG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.main__divUser{
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    margin: 0px 150px;
+}
+
+.div__containerExpe{
+    display: flex;
+    
+}
+
+.main__divExpe{
+    display: flex;
+    margin: 15px 50px;
+    
+}
+
+.main__textExpe{
+    width: 40%;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.main__textFrase{
+    font-size: 3rem;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.div__containerGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+
+                            /* -- CONTACTO -- */
+
+.main__containerCont{
+    background-image: url(../assets/img-contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.main__containerCont{
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+}
+
+.main__divcontainerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 20px;
+}
+
+.main__imputform{
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    gap: 7px;
+}
+
+.main__titleForm{
+    color:white
+}
+
+.main__divEtapa{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.main__impCoop{
+    width: 350px;
+}
+
+.main__dat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 300px;  
+}
+
+.main__titleDat{
+    font-size: 3rem;
+    color: white;
+}
+
+.main__textDat{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+}
+
+.main__texrInfo{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* ------end-of-main------ */
+
+/* ------start-of-footer------ */
+
+.footer{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem 5rem 2rem;
+}
+
+.footer__divDesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__desc{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer__textDesc{
+    font-size: 2rem;
+    color: white;
+}
+
+/* menu-footer */
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__item{
+    margin-top: 1.5rem;
+}
+
+.footer__link{
+   color: white;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+
+.footer__divLogos{
+    
+}
+
+.footer__logo{
+    width: 15vw;
+}
+
+.div__redes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__logosRedes{
+    width: 3vw;
+}
+
+.footer__logosRedes--modifier{
+    width: 5vw;
+}
+
+.footer__divDat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__titleDat{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer__textDat{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer__texrInfo{
+    color: white;
+}
+
+
+/* ------end-of-footer------ */
+
+/* descripción */
+
