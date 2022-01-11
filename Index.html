@@ -5,141 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>CTP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Cormorant+Garamond:wght@300&family=Russo+One&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css-propio/estilos.css">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-dark border-2 position-relative">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./Index.html"><img class="header__img" src="./assets/logo.png" alt="logo-institucional"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div >
+                    <a class="navbar-brand" href="./Index.html"><img class="header__imgNav" src="./assets/img/logo.png" alt=""></a> 
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav align-items-center" class="nav__item">
-                        <a class="nav-link active h2 nav__item" aria-current="page" href="./Index.html">Inicio</a>
-                        <a class="nav-link h2 nav__item" href="./secciones/somos.html">Somos</a>
-                        <a class="nav-link h2 nav__item" href="./secciones/novedades.html">Novedades</a>
-                        <a class="nav-link h2 nav__item" href="./secciones/experiencias.html">Experencia</a>
-                        <a class="nav-link h2 nav__item" href="./secciones/contacto.html">Contacto</a>
-                    </div>   
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav" id="header__list">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="header__item"  href="./Index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="header__item" href="./secciones/somos.html">EQUIPO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="header__item"  href="./secciones/novedades.html">NOVEDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="header__item"  href="./secciones/experiencias.html">EXPERIENCIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="header__item"  href="./secciones/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- end-of-header -->
-
-    <!-- start-of-main -->
-
-    <main class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <img class="d-block w-100 main__img" src="./assets/img-principal.png" alt="Imagen principal">
-            </div>
+    <!-- end-of-header --><!-- start-of-main -->
+    
+    <main class="main">
+        <div class="container-fluid p-0 overflow-hidden position-relative" id="main__container">
+             <img src="./assets/img/todos-juntos.png" class="w-100" height="550"  alt="imagen-principal">
+             <h2 class="position-absolute top-0 start-0 fw-bolder fst-italic lh-sm" id="main__slogan" data-aos="fade-right"
+             data-aos-offset="500"
+             data-aos-easing="ease-in-sine"> JUNTOS CONSTRUYENDO <br> COMUNIDAD</h2>
         </div>
+    </main>
+
+  
 
     <!-- section-of-history -->
 
-        <section class="container-fluid"> 
-            <div class="row">
-                <div class="col-md-4 p-3">
-                    <h2 class="main__title display-2 bold"><strong>Nuestra historia</strong></h2> 
+        <section class="sec__history">
+            <article class="art__history">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col">
+                                <h2 class="main__title fs-1 fw-bolder" data-aos="fade-right"><strong>Nuestra historia</strong></h2> 
+                                <hr class="linea__title" data-aos="fade-left">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <article class="container">
+            </article> 
+            <article class="container"> 
                  <div class="row">
                     <div class="col-md-6">
-                        <video class="main__video" src="./assets/video-presentación.mp4" controls>
+                        <video class="main__video w-80" height="400" src="./assets/video-presentación.mp4" controls>
                         <code>Video de historia</code></video>
                     </div>
                     <div class="col-md-6">
-                        <p class="main__text h4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam error fugiat ipsa, architecto ut cum est tempore tempora  iste animi qui sunt nemo enim, suscipit iure consequatur obcaecati eos nisi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, labore commodi nesciunt assumenda quisquam quasi. Nisi ipsam ratione omnis alias porro hic nemo corporis quas nobis at voluptatum voluptas,culpa quibusdam soluta, unde explicabo possimus? Soluta quibusdam incidunt omnis illum ducimus vel eos qui ipsum libero, necessitatibus facere dolores veritatis magnam corporis quae modi nesciunt. Saepe, itaque, beatae voluptas eos</p>                    </div>
+                        <p class="text-center fs-3 " id="main__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam error fugiat ipsa, architecto ut cum est tempore tempora  iste animi qui sunt nemo enim, suscipit iure consequatur obcaecati eos nisi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, labore commodi nesciunt assumenda quisquam quasi. Nisi ipsam ratione omnis alias porro hic nemo corporis quas nobis at voluptatum voluptas,culpa quibusdam soluta, unde explicabo possimus? Soluta quibusdam incidunt omnis illum ducimus vel eos qui ipsum libero, necessitatibus facere dolores veritatis magnam corporis quae modi nesciunt. Saepe, itaque, beatae voluptas eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque enim nihil, illum nostrum omnis fugit repellat a iste vero. Ullam similique magnam iste cumque vitae atque, explicabo nihil quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur earum eveniet dolorem? Totam minus eaque adipisci aperiam sint voluptates.</p>                    
                     </div>
+                </div>
          </article>
         </section>
+
 
     <!-- section-of-areas -->
 
         <section class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 p-3">
-                    <h2 class="main__title display-2 bold"><strong>Asesoramiento</strong></h2> 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="">
-                        <h2 class="main__titleLegal text-center">Asesoramiento <br> Legal</h2>
+            <article class="mt-5" id="art__history">
+                <div class="container mt-12">
+                    <div class="row">
+                        <div class="col">
+                                <h2 class="main__title fs-1 fw-bolder" data-aos="fade-right"><strong>Asesoramiento</strong></h2> 
+                                <hr class="linea__title" data-aos="fade-left">
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <img class="main__imgAreas" src="./assets/img-area-legal.png" alt="">
-                    </div>
-                    <div>
-                        <p class="main__textAreas  text-center w-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="">
-                        <h2 class="main__titleLegal text-center">Asesoramiento <br> Social</h2>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <img class="main__imgAreas" src="./assets/img-area-legal.png" alt="">
-                    </div>
-                    <div>
-                        <p class="main__textAreas  text-center w-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="">
-                        <h2 class="main__titleLegal text-center">Asesoramiento <br>Arquitectonico</h2>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <img class="main__imgAreas" src="./assets/img-area-legal.png" alt="">
-                    </div>
-                    <div>
-                        <p class="main__textAreas  text-center w-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="">
-                        <h2 class="main__titleLegal text-center">Asesoramiento <br>Contable</h2>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <img class="main__imgAreas" src="./assets/img-area-legal.png" alt="">
-                    </div>
-                    <div>
-                        <p class="main__textAreas  text-center w-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
-                    </div>
-                </div>
-            </div>
-
-
-    <!-- section-of-news -->
-
-        <!-- <section class="main__news">
-            <div class="main__divtitle">
-                <h2 class="main__title">Noticias</h2> 
-            </div>
-            <hr class="main__linea">
-            <article>
-                <div>
-
                 </div>
             </article>
-            <article>
-                <div>
-                    
+            <article class="art__area mb-5" id="section__area" data-aos="flip-down"> 
+                <div class="row">
+                    <div class="col border-start border-light">
+                        <div>
+                            <h2 class="text-center" id="main__titleLegal">Asesoramiento <br> Legal</h2>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img class="main__imgAreas" src="./assets/img/img-area-legal.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-center w-100 mt-3 p-3 fs-5" id="main__textAreas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
+                        </div>
+                    </div>
+                    <div class="col border-start border-light">
+                        <div class="#">
+                            <h2 class="text-center" id="main__titleSocial">Asesoramiento <br> Social</h2>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img class="main__imgAreas--modifier" src="./assets/img/img-area-social.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-center w-100 mt-3 p-3 fs-5" id="main__textAreas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
+                        </div>
+                    </div>
+                    <div class="col border-start border-light"">
+                        <div class="#">
+                            <h2 class="text-center" id="main__titleArq">Asesoramiento <br>Arquitectonico</h2>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img class="main__imgAreas" src="./assets/img/img-area-arquitectonica.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-center w-100 mt-3 p-3 fs-5" id="main__textAreas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
+                        </div>
+                    </div>
+                    <div class="col border-start border-light"">
+                        <div class="#">
+                            <h2 class="text-center" id="main__titleContable">Asesoramiento <br>Contable</h2>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img class="main__imgAreas" src="./assets/img/img-area-contable.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-center w-100 mt-3 p-3 fs-5" id="main__textAreas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores similique accusantium consectetur earum odit mollitia beatae consequatur quia nisi. </p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article>
-                <div>
-                    
-                </div>
-            </article>
-        </section>
-    </main> -->
+            </article>  
+        </main> 
 
     <!-- end-of-main -->
 
@@ -148,7 +158,7 @@
     <footer class="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-4">
                     <div>
                         <h2 class="footer__desc"> CTP - Cooperativa de Trabajo Paysandú</h2> 
                     </div>
@@ -161,14 +171,10 @@
                             <li class="footer__item"><a class="footer__link" href="./secciones/contacto.html">Contacto</a></li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-             
-
+                </div>  
                 <div class="col-md-4">
                    <div>
-                    <a class="footer__logo" href="Index.html"><img class="footer__logo" src="assets/logo-footer.png" alt="logo de la pagina-ir al principio"></a>
+                        <a class="footer__logo" href="Index.html"><img id="footer__logo" class="mt-4" src="assets/img/logo-footer.png" alt="logo de la pagina-ir al principio"></a>
                    </div>
         |           <div class="div__redes">   
                         <a class="footer__logosRedes" href="#"><img class="footer__logosRedes m-3" src="assets/logo-wpp.png" alt="WhastApp"></a>
@@ -178,15 +184,20 @@
                 </div>
                 <div class="col-md-3">
                     <div>
-                        <h2 class="footer__titleDat">Contacto</h2>
-                        <p class="footer__textDat mt-2">Dirección: <span class="footer__texrInfo"> Calle esquina calle 1111</span></p>
-                        <p class="footer__textDat mt-2">Teléfono: <span class="footer__texrInfo">00000000000</span></p>
-                        <p class="footer__textDat mt-2">Correo eléctrónico: <span class="footer__texrInfo">nombreapellido@correo.com</span></p>
+                        <h2 class="text-center mt-4" id="footer__titleDat">Contacto</h2>
+                        <p class="mt-4 text-center" id="footer__textDat">Dirección: <span class="footer__texrInfo"> Calle esquina calle 1111</span></p>
+                        <p class="mt-4 text-center" id="footer__textDat">Teléfono: <span class="footer__texrInfo">00000000000</span></p>
+                        <p class="mt-4 text-center" id="footer__textDat">Correo eléctrónico: <span class="footer__texrInfo">nombreapellido@correo.com</span></p>
                     </div>
-            
+                </div>
+            </div>
         </div>
     </footer> 
     <!-- end-of-footer -->
+    
+    <script> 
+      AOS.init(); 
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
