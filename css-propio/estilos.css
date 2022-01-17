@@ -244,7 +244,10 @@ html{
 
 .footer{
     background-color: black;
-    
+}
+
+#footer__row{
+    justify-content: space-around;
 }
 
 .footer__desc{
