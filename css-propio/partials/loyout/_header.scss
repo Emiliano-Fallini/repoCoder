@@ -1,0 +1,27 @@
+.container-fluid{
+    padding: 5px 30px;
+    
+    .header__imgNav{
+        width: 25vh;
+        
+    }
+    
+    .nav-item{
+        margin-right: 50px;
+        color: black;   
+    }
+    
+    #header__item{
+        padding: 5px 15px;
+        font-family: $font-Title;
+        font-weight: bold;
+        font-size: 1.8rem;
+        
+        &:hover{
+            background: $Green-Dark;
+            color: white;
+            font-weight: bold;
+        }
+    }
+    
+}

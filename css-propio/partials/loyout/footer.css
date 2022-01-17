@@ -1,0 +1,67 @@
+.footer {
+  background-color: black;
+  /* menu-footer */
+  /* redes */
+  /* ------end-of-footer------ */
+}
+
+.footer #footer__row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__desc {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+.footer__textDesc {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  margin-top: 1.5rem;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footer #footer__logo {
+  width: 15vw;
+}
+
+.footer__logosRedes {
+  width: 3vw;
+}
+
+.footer__logosRedes--modifier {
+  width: 5vw;
+}
+
+.footer #footer__titleDat {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer #footer__textDat {
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.footer__texrInfo {
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+/*# sourceMappingURL=footer.css.map */

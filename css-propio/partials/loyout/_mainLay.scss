@@ -1,0 +1,70 @@
+#main__container{
+    height: 500px;
+
+    
+}
+#main__slogan{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    font-size: 8rem;
+    color: black;
+    font-family: $font-Title;
+    
+}
+
+/* historia */
+
+.main__title{
+    font-family: $font-Title;
+    color: $Green-Ligth;
+    letter-spacing: 0.2rem;
+}
+
+.linea__title{
+    height: 2px !important;
+    background-color: $Green-Ligth;
+    opacity: 1;
+    
+}
+
+#main__text{
+    font-family: $font-Text;
+    font-weight: bolder;
+    line-height: 3rem;
+    text-align:center !important;
+}
+
+/* area */
+
+
+.art__area{
+    background-color: $Green-Dark;
+    
+}
+
+#main__titleLegal, #main__titleSocial, #main__titleArq, #main__titleContable{
+    background-color: $Green-Dark;
+    opacity: 1 !important;
+    color: white;
+    padding: 0.5rem 0rem;
+    font-family: $font-Title;
+    font-size: 2rem;
+    
+}
+
+#main__textAreas{
+    color: white;
+    font-family: $font-Text;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.main__imgAreas{
+    width: 40vh;
+    
+}
+
+.main__imgAreas--modifier{
+    width: 40vh;
+    height: 27vh;
+}
