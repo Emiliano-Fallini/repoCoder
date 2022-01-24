@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Cormorant+Garamond:wght@300&family=Russo+One&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -25,19 +26,20 @@ html {
 
 .container-fluid #header__item {
   padding: 5px 15px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
 }
 
 .container-fluid #header__item:hover {
-  background: #009900;
+  background: #005c00;
   color: white;
   font-weight: bold;
 }
 
 #main__container {
   height: 500px;
+  width: auto;
 }
 
 #main__slogan {
@@ -45,12 +47,11 @@ html {
   margin-left: 6rem;
   font-size: 8rem;
   color: black;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 /* historia */
 .main__title {
-  font-family: 'Barlow Condensed', sans-serif;
   color: #009900;
   letter-spacing: 0.2rem;
 }
@@ -61,8 +62,8 @@ html {
   opacity: 1;
 }
 
-#main__text {
-  font-family: 'Cormorant Garamond', serif;
+.main__text {
+  font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
   line-height: 3rem;
   text-align: center !important;
@@ -78,13 +79,13 @@ html {
   opacity: 1 !important;
   color: white;
   padding: 0.5rem 0rem;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2.5rem;
 }
 
 #main__textAreas {
   color: white;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
   letter-spacing: .1rem;
 }
@@ -94,8 +95,8 @@ html {
 }
 
 .main__imgAreas--modifier {
-  width: 40vh;
   height: 27vh;
+  width: 40vh;
 }
 
 .footer {
@@ -120,7 +121,7 @@ html {
 .footer__textDesc {
   font-size: 2rem;
   color: white;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .footer__list {
@@ -157,11 +158,11 @@ html {
 .footer #footer__textDat {
   color: white;
   font-size: 1.3rem;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .footer__texrInfo {
   color: white;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

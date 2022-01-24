@@ -20,7 +20,7 @@
 .footer__textDesc {
   font-size: 2rem;
   color: white;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .footer__list {
@@ -57,11 +57,11 @@
 .footer #footer__textDat {
   color: white;
   font-size: 1.3rem;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .footer__texrInfo {
   color: white;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 /*# sourceMappingURL=footer.css.map */

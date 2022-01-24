@@ -1,8 +1,24 @@
-#main__container{
-    height: 500px;
+@import "./var";
 
+// declaración de mapa
+
+$mapa:(
+  color: #009900, 
+  size: 1.5rem,
+  sizeTitle: 2.5rem
+);
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
     
 }
+
+
+#main__container{
+     @include sizes(auto,500px,)
+ }
+
 #main__slogan{
     margin-top: 3rem;
     margin-left: 6rem;
@@ -15,19 +31,19 @@
 /* historia */
 
 .main__title{
-    font-family: $font-Title;
-    color: $Green-Ligth;
+    
+    color: map-get($mapa, color);
     letter-spacing: 0.2rem;
 }
 
 .linea__title{
     height: 2px !important;
-    background-color: $Green-Ligth;
+    background-color: map-get($mapa, color );   //color
     opacity: 1;
     
 }
 
-#main__text{
+.main__text{
     font-family: $font-Text;
     font-weight: bolder;
     line-height: 3rem;
@@ -38,24 +54,35 @@
 
 
 .art__area{
-    background-color: $Green-Dark;
+    background-color: $Green-Dark; //color
     
 }
 
-#main__titleLegal, #main__titleSocial, #main__titleArq, #main__titleContable{
-    background-color: $Green-Dark;
+#main__titleLegal{
+    background-color: $Green-Dark; //color
     opacity: 1 !important;
-    color: white;
+    color: white; 
     padding: 0.5rem 0rem;
     font-family: $font-Title;
-    font-size: 2rem;
+    font-size: map-get($mapa, sizeTitle );
     
+}
+
+#main__titleSocial{
+    @extend #main__titleLegal;
+}
+#main__titleArq{
+    @extend #main__titleLegal;
+} 
+
+#main__titleContable{
+    @extend #main__titleLegal;
 }
 
 #main__textAreas{
     color: white;
     font-family: $font-Text;
-    font-size: 1.5rem;
+    font-size: map-get($mapa, size );
     letter-spacing: .1rem;
 }
 
@@ -65,6 +92,5 @@
 }
 
 .main__imgAreas--modifier{
-    width: 40vh;
-    height: 27vh;
+    @include sizes(40vh, 27vh ) 
 }
