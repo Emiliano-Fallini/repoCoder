@@ -1,58 +1,121 @@
 
-
+// incio
 
 .main{
     margin-top: 10rem !important;
 
-    &__heroSlogan{
-        font-size: 100%;
-        width: 30%;
-        height: 20%;
+    &__heroImg{
+        width: 100%;
+        height: 100%;
+       }
+
+    &__somosTitle{
+       font-family: $title-font; 
     }
+
+    &__somosText{
+        font-family: $text-font;
+    }
+
+    &__asesoramiento{
+        font-family: $title-font;
+
+        &SocialTitle{
+            font-family: $title-font;
+           }
+
+        &SocialText{
+            font-family: $text-font;
+        }
+
+        &LegalTitle{
+            font-family: $title-font;
+        }
+
+        &LegalText{
+            font-family: $text-font;
+        }
+
+        &ArqTitle{
+            font-family: $title-font;
+        }
+
+        &ArqText{
+            font-family: $text-font;
+        }
+    }
+
 }
+
+
+// equipo
 
 .main__equipo{
     margin-top: 12rem !important;
+
+        &Title{
+            font-family: $title-font;
+        }
+
+        &Social{
+            font-family: $title-font;
+        }
+
+        &Legal{
+            font-family: $title-font;
+        }
+
+        &Arq{
+            font-family: $title-font;
+        }
+
+        &Nombre{
+            font-family: $text-font;
+        }
+
+
 }
+
+
+// experiencia
 
 .main__expe{
     margin-top: 10.7rem !important;
-}
+
+    &Title{
+        font-family: $title-font;
+    }
+
+    &Text{
+        font-family: $text-font;
+        }
+    }
+
+
+// novedades
 
 .main__nove{
     margin-top: 11.5rem !important;
-}
 
+    &Title{
+        font-family: $title-font;
+    }
 
- .main__heroImg{
-         width: 100%;
-         height: 100%;
+    &Text{
+        font-family: $text-font;
         }
-
-.main__heroSloganText{
-    font-size: 5rem;
 }
 
 
-// .main__somosText{
-//     font-size: 1.2rem;
-// }
-
-
-// EQUIPO
-
-
-
-
-// CONTACTO
+// contacto
 
 .main__contacto{
     background-image: url("../assets/img/contacto.png");
 
+    &Title{
+        font-family: $title-font;
+    }
+
  }
 
-
- .footer__icono-telefono {
-     letter-spacing: .1rem;
- }
 

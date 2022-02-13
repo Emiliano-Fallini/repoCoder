@@ -1,9 +1,9 @@
-
+@import url(../_base.scss);
 
 .header__link{
     font-size: 1.3rem;
     font-weight: bold;
-    font-family: 'Merriweather', serif;
+    font-family: $text-font;
     margin: 1rem;
     color: #198754 !important;
     

@@ -36,6 +36,13 @@ html{
 @media screen and(min-width:1200px){
     .main__somosText{
         font-size: 1.8rem !important;
+        font-weight: bold;
     }
 }
+
+// variables
+
+$text-font: 'Fira Sans', sans-serif;
+$title-font: 'Arvo', serif;
+  
 
