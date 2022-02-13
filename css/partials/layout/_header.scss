@@ -1,0 +1,14 @@
+
+
+.header__link{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin: 1rem;
+    color: #198754 !important;
+    
+    &:hover{
+        background-color: #198754;
+        color: white !important;
+    }
+}

@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 576px) {
+  .main__heroImg {
+    height: 200px !important;
+  }
+  .main__expeCorusel {
+    height: 150px !important;
+  }
+  .footer__link {
+    margin-bottom: .8rem !important;
+  }
+  .footer__by {
+    font-size: .8rem !important;
+  }
+  .footer__imgLogo {
+    margin-top: 0rem !important;
+  }
+  .footer__contContacto {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer__colMarca {
+    padding-left: 2rem !important;
+  }
+  .footer__marca, .footer__contactoTitle {
+    font-size: 1.3rem !important;
+  }
+  .footer__link {
+    margin-bottom: .8rem !important;
+  }
+  .footer__imgLogo {
+    margin-top: 0rem !important;
+  }
+  .footer__by {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .footer__colMarca {
+    padding-left: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer__link {
+    margin-bottom: .8rem !important;
+  }
+  .footer__marca, .footer__contactoTitle {
+    font-size: 1.2rem !important;
+  }
+  .footer__imgLogo {
+    margin-top: 1rem !important;
+  }
+  .footer__by {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .footer__imgLogo {
+    width: 110%;
+  }
+  .footer__dirección, .footer__correo, .footer__telefono, .footer__link {
+    font-size: 1.2rem !important;
+  }
+  .footer__marca, .footer__contactoTitle {
+    font-size: 1.7rem !important;
+  }
+  .footer__by {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main__somosText {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main__somosText {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .footer__imgLogo {
+    width: 110%;
+  }
+  .footer__dirección, .footer__correo, .footer__telefono, .footer__link {
+    font-size: 1.2rem !important;
+  }
+  .footer__marca, .footer__contactoTitle {
+    font-size: 1.7rem !important;
+  }
+  .footer__by {
+    font-size: 1rem !important;
+  }
+}
+
+.header__link {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  margin: 1rem;
+  color: #198754 !important;
+}
+
+.header__link:hover {
+  background-color: #198754;
+  color: white !important;
+}
+
+.main {
+  margin-top: 10rem !important;
+}
+
+.main__heroSlogan {
+  font-size: 100%;
+  width: 30%;
+  height: 20%;
+}
+
+.main__equipo {
+  margin-top: 12rem !important;
+}
+
+.main__expe {
+  margin-top: 12rem !important;
+}
+
+.main__heroImg {
+  width: 100%;
+  height: 100%;
+}
+
+.main__heroSloganText {
+  font-size: 5rem;
+}
+
+.main__contacto {
+  background-image: url("../assets/img/contacto.png");
+}
+
+.footer {
+  font-family: 'Arvo', serif;
+}
+
+.footer__link:hover {
+  color: black !important;
+}
+
+.footer__dirección, .footer__correo, .footer__telefono {
+  letter-spacing: .1rem;
+}
+/*# sourceMappingURL=main.css.map */
