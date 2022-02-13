@@ -16,73 +16,7 @@ html {
     height: 200px !important;
   }
   .main__expeCorusel {
-    height: 220px !important;
-  }
-  .footer__link {
-    margin-bottom: .8rem !important;
-  }
-  .footer__by {
-    font-size: .8rem !important;
-  }
-  .footer__imgLogo {
-    margin-top: 0rem !important;
-  }
-  .footer__contContacto {
-    border: none !important;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .footer__colMarca {
-    padding-left: 2rem !important;
-  }
-  .footer__marca, .footer__contactoTitle {
-    font-size: 1.3rem !important;
-  }
-  .footer__link {
-    margin-bottom: .8rem !important;
-  }
-  .footer__imgLogo {
-    margin-top: 0rem !important;
-  }
-  .footer__by {
-    font-size: 1rem !important;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .footer__colMarca {
-    padding-left: 2rem !important;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .footer__link {
-    margin-bottom: .8rem !important;
-  }
-  .footer__marca, .footer__contactoTitle {
-    font-size: 1.2rem !important;
-  }
-  .footer__imgLogo {
-    margin-top: 1rem !important;
-  }
-  .footer__by {
-    font-size: 1rem !important;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .footer__imgLogo {
-    width: 110%;
-  }
-  .footer__dirección, .footer__correo, .footer__telefono, .footer__link {
-    font-size: 1.2rem !important;
-  }
-  .footer__marca, .footer__contactoTitle {
-    font-size: 1.7rem !important;
-  }
-  .footer__by {
-    font-size: 1rem !important;
+    height: 180px !important;
   }
 }
 
@@ -95,21 +29,6 @@ html {
 @media screen and (min-width: 1200px) {
   .main__somosText {
     font-size: 1.8rem !important;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
-  .footer__imgLogo {
-    width: 110%;
-  }
-  .footer__dirección, .footer__correo, .footer__telefono, .footer__link {
-    font-size: 1.2rem !important;
-  }
-  .footer__marca, .footer__contactoTitle {
-    font-size: 1.7rem !important;
-  }
-  .footer__by {
-    font-size: 1rem !important;
   }
 }
 
@@ -141,7 +60,11 @@ html {
 }
 
 .main__expe {
-  margin-top: 12rem !important;
+  margin-top: 10.7rem !important;
+}
+
+.main__nove {
+  margin-top: 11.5rem !important;
 }
 
 .main__heroImg {
@@ -155,6 +78,10 @@ html {
 
 .main__contacto {
   background-image: url("../assets/img/contacto.png");
+}
+
+.footer__icono-telefono {
+  letter-spacing: .1rem;
 }
 
 .footer {

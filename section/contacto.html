@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto IAT-CTP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -51,20 +52,20 @@
       <div class="container">
         <form class="main__contactoForm" action="#" method="get"></form>
             <div class="row justify-content-center mt-4 mb-3 mb-md-1">
-              <div class="col-10 col-md-5 col-xl-4 mb-3">
+              <div class="col-10 col-md-5 col-xl-4 mb-3" data-aos="fade-left">
                 <div class="main__divName">
                   <label class="mb-2 text-white fs-3" for="name">Nombre</label><br>
                   <input class="form-control form-control-lg border border-2 border-success main__impName" type="text" name="nombre-user" id="name">
                 </div>
               </div>
-              <div class="col-10 col-md-5 col-xl-4">
+              <div class="col-10 col-md-5 col-xl-4" data-aos="fade-right">
                 <div class="main__divApellido">      
                   <label class="mb-2 text-white fs-3" for="apellidos">Apellido</label><br>
                   <input class="form-control form-control-lg border border-2 border-success main__impApellido" type="text" name="apellidos-user" id="apellidos">
                 </div>
               </div>
             </div>
-            <div class="row justify-content-center mb-2">
+            <div class="row justify-content-center mb-2" data-aos="fade-left">
               <div class="col-10 col-xl-8">
                 <div class="main__divCoop">
                   <label class="mb-2 text-white fs-3" for="cooperativa">Cooperativa</label><br>
@@ -72,7 +73,7 @@
                 </div>           
               </div>
             </div>
-            <div class="row justify-content-center mt-3 mb-3">
+            <div class="row justify-content-center mt-3 mb-3" data-aos="fade-right">
                 <div class="col-10 col-xl-8">
                   <div class="d-lg-flex align-items-strech flex-lg-row justify-content-start gap-3 align-items-lg-baseline text-white fs-4 main__divEtapa">
                     <label class="mb-1 fs-3 main__impEtapa" for="estado">Etapa:</label><br>
@@ -82,21 +83,21 @@
                   </div>                 
                 </div>
             </div>
-            <div class="row justify-content-center justify-content-md-center mb-3">
+            <div class="row justify-content-center justify-content-md-center mb-3" data-aos="fade-left">
               <div class="col-10 col-md-5 col-xl-4">
                 <div class="main__divTel">
                   <label class="mb-2 text-white fs-3" for="teléfono">Teléfono</label>
                   <input class="form-control form-control-lg border border-2 border-success main__impTel" type="number" name="teléfono-usuario" id="teléfono">
                 </div>                
               </div>
-              <div class="col-10 col-md-5 col-xl-4">
+              <div class="col-10 col-md-5 col-xl-4" data-aos="fade-right">
                 <div class="main__divMail">
                   <label class="mb-2 text-white fs-3" for="correo">Correo electrónico</label>
                   <input class="form-control form-control-lg border border-2 border-success main__impMail" type="email" name="correo-usuario" id="correo">
                 </div>           
               </div>
             </div>
-            <div class="row justify-content-center mb-3">
+            <div class="row justify-content-center mb-3" data-aos="fade-left">
               <div class="col-10 col-xl-8">
                 <div class="main__divMsj">
                   <label class="text-white fs-3 mb-2" for="mensaje">Mensaje</label><br>
@@ -104,7 +105,7 @@
                 </div>                  
               </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-right">
               <div class="col-10 mb-5 col-xl-8">
                 <div class="main__divEnv d-flex justify-content-end">
                   <input class="btn btn-success btn-lg main__impEnv" type="submit" value="Enviar">
@@ -112,7 +113,7 @@
               </div>
             </div>
       </div>
-      <div class="container d-flex flex-column flex-lg-row justify-content-evenly pb-4">
+      <div class="container d-flex flex-column flex-lg-row justify-content-evenly pb-4" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
         <div class="row justify-content-center mb-2">
           <div class="col-10 col-lg-12">
             <div class="d-flex justify-content-center mb-2">
@@ -122,7 +123,7 @@
           </div>
         </div>
         <div class="row justify-content-center mb-2">
-          <div class="col-10 col-lg-12">
+          <div class="col-10 col-lg-12" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
             <div class="d-flex justify-content-center mb-2">
               <img class="" src="../assets/img/telefono.png" alt="">
             </div>
@@ -130,7 +131,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-12">
+          <div class="col-10 col-lg-12" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
             <div class="d-flex justify-content-center mb-2">
               <img class="" src="../assets/img/correo.png" alt="">
             </div>
@@ -197,5 +198,9 @@
             </div>
   </footer> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!-- script de bootstrap -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

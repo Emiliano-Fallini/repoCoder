@@ -8,12 +8,8 @@ html{
     font-size: 62.5%;
 }
 
-
-
-
 //-----Media Query -----//
 
-// hasta 576
 
 @media screen and (max-width: 576px){ 
 
@@ -22,106 +18,12 @@ html{
         }
 
     .main__expeCorusel{
-            height: 220px !important;
+            height: 180px !important;
        }
 
-
-    .footer__link{
-        margin-bottom: .8rem !important;
-    }
-
-    .footer__by{
-        font-size: .8rem !important;
-    }
-
-    .footer__imgLogo{
-        margin-top: 0rem !important;
-    }
-
-    .footer__contContacto{
-        border: none !important;
-    }
 }
 
-// desde 576 hasta 768
 
-@media screen and (min-width: 576px)and (max-width: 768px){ 
-
-
-
-    .footer__colMarca{ 
-        padding-left: 2rem !important;
-    }
-
-    .footer__marca, .footer__contactoTitle{
-        font-size: 1.3rem !important;
-    }
-
-    .footer__link{
-        margin-bottom: .8rem !important;
-    }
-
-    .footer__imgLogo{
-        margin-top: 0rem !important;
-    }
-
-    .footer__by{
-        font-size: 1rem !important;
-    }
-}
-
-// desde 768 hasta 990
-
-@media screen and (min-width: 768px) and (max-width: 990px){ 
-
-    .footer__colMarca{ 
-        padding-left: 2rem !important;
-    }
- }
-
-// desde 768 hasta 1024
-
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
-
-    .footer__link{ 
-        margin-bottom: .8rem !important;
-    }
-
-    .footer__marca, .footer__contactoTitle{
-        font-size: 1.2rem !important;
-    }
-
-    .footer__imgLogo{
-        margin-top: 1rem !important;
-    }
-
-    .footer__by{
-        font-size: 1rem !important;
-    }
-}
-
-// desde 1024 hasta 1200
-
-@media screen and (min-width:1024px) and (max-width: 1200px){
-    
-
-    .footer__imgLogo{
-        width: 110%; 
-    }
-    .footer__dirección, .footer__correo, .footer__telefono, .footer__link{
-            font-size: 1.2rem !important;
-    }
-
-    .footer__marca, .footer__contactoTitle{
-        font-size: 1.7rem !important;
-    }
-
-    .footer__by{
-        font-size: 1rem !important;
-    }
-
-
-}
 
 // texto de somos
 
@@ -137,25 +39,3 @@ html{
     }
 }
 
-// desde 1200 hasta 1440
-
-@media screen and (min-width:1200px) and (max-width: 1440px){ 
-
-
-    .footer__imgLogo{
-        width: 110%; 
-    }
-    .footer__dirección, .footer__correo, .footer__telefono, .footer__link{
-            font-size: 1.2rem !important;
-    }
-
-    .footer__marca, .footer__contactoTitle{
-        font-size: 1.7rem !important;
-    }
-
-    .footer__by{
-        font-size: 1rem !important;
-    }
-
-
-}
